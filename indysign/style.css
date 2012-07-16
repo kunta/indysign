@@ -79,16 +79,18 @@ input {
 	width: 250px;
 	margin-left: -100%;
 	position: relative;
-	background: #B5E3FF;
+	background: #FFFFFF;
 }
 
 
 /* Footer
 -----------------------------------------------------------------------------*/
 #footer {
+	font color: #00FF00;
 	width: 1000px;
 	margin: -100px auto 0;
 	height: 100px;
-	background: #BFF08E;
+	background: #000000;
 	position: relative;
+
 }
