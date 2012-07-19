@@ -14,13 +14,16 @@ body {
 	height: 100%;
 }
 a {
-	color: blue;
+	color: #00FF00;
 	outline: none;
-	text-decoration: underline;
+	text-decoration: none;
 }
 a:hover {
 	text-decoration: none;
 }
+a:link {color:#00FF00;} 
+a:visited {color:#00FF00;}
+a:active {color:#00FF00;}
 p {
 	margin: 0 0 18px
 }
@@ -94,3 +97,11 @@ input {
 	position: relative;
 
 }
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
