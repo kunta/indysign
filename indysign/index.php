@@ -19,12 +19,14 @@
 <!-- Craftyslide Plugin -->
 <script src="craftyslide.js"></script>
 
-<?php
-	$title = "Home";
-	include(dirname(__FILE__).'header.php');
-?>
+
+
 
 </head>
+
+
+<?php include("products.php"); ?>
+
 
 <body>
 
