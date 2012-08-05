@@ -1,0 +1,129 @@
+		body {
+			margin: 0;
+			font-family: Arial, Helvetica;
+			font-size: 11.5pt;
+		}
+		a {
+			text-decoration: none;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+		}
+		#menu_items li {
+			list-style-type: none;
+			float: left;
+			height: 80px;
+			margin: 0;
+			padding: 0;
+		}
+		#menu {
+			width: 1300px;
+			margin: 0 auto;
+		}
+		#page {
+			background: url('/common/images/template/splashbg.png') repeat-x;
+			width: 100%;
+			height: 500px;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+		}
+		#body {
+			clear: both;
+			width: 800px;
+			height: 520px;
+			margin: 0 auto;
+			background: url('/common/images/template/page_bg.png') no-repeat;
+		}
+		.nav_topleft, .nav_home, .nav_aboutus, .nav_projects, .nav_events, .nav_contact {
+			position: relative;
+			white-space: nowrap;
+			display: block;
+			margin: 0;
+			padding: 0;
+		}
+		.nav_topleft {
+			background: url('/common/images/template/top_left.png') no-repeat;
+			width: 325px;
+		}
+		.nav_home {
+			background: url('images/home_on.png') no-repeat;
+		}
+		.nav_aboutus {
+			background: url('images/tab_aboutus_on.png') no-repeat;
+		}
+		.nav_programs {
+			background: url('images/programs_on.png') no-repeat;
+		}
+		.nav_events {
+			background: url('images/events_on.png') no-repeat;
+		}
+		.nav_contact {
+			background: url('images/contact_on.png') no-repeat;
+		}
+
+		#menu_items li a {
+			display: block;
+			float: left;
+		}
+
+		#menu_items li img {
+			border: 0
+		}
+
+		* html a:hover {
+			visibility:visible
+		}
+
+		#menu_items a:hover img {
+			visibility:hidden
+		}
+		#content {
+			width: 435px;
+			margin-left: 325px;
+			text-align: left;
+			padding: 5px;
+			padding-top: 0;
+			position: relative;
+		}
+		#expand_block {
+			width: 700px;
+			margin: 0 auto;
+			position: absolute;
+			right: 0;
+		}
+		.expand_list {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			width: 320px;
+			margin-left: 375px;
+		}
+		.expand_arrow {
+			background: url('/common/images/template/bullet_arrow.png') no-repeat;
+			background-position: 0 0;
+			padding-top: 2px;
+			padding-left: 22px;
+		}
+		#expanded {
+			width: 630px;
+			padding: 10px;
+			display:none;
+		}
+
+		.contacts {
+			padding-top: 10px;
+			text-align: center;
+		}
+		.contacts h2 {
+			background: #820024;
+			color: #FFF;
+			margin: 0 auto;
+			width: 290px;
+			margin-top: 20px;
+			text-transform: uppercase;
+		}
+		.contacts p {
+			font-weight: bold;
+		}

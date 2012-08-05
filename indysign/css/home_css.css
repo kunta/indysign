@@ -1,0 +1,8 @@
+		#page #body {
+			clear: both;
+			width: 1000px;
+			height: 520px;
+			margin: 0 auto;
+			background: url('/common/images/template/page_home.png') no-repeat;
+			align: centre;
+		}
