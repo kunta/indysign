@@ -71,6 +71,9 @@
 		#menu_items li img {
 			border: 0
 		}
+		#logo img {
+		align: center;
+		}
 
 		* html a:hover {
 			visibility:visible
